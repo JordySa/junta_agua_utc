@@ -1,41 +1,56 @@
-<div class="well text-center">
-	<h4>
-		<i class="glyphicon glyphicon-globe"> </i>
-<b>JUNTA DE AGUA BARCELONA</b>
-<br>
-<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bienvenido al sitio web de gestión de cobro de agua potable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyz_mkZZTj5FJrMSK3LFwEypk1M168le4jFPxesdMyUsiVHUkA0ENHsQxZ9IiqDXH_eQc&usqp=CAU" height="300px" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
+        h1 {
+            color: #007bff;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 12px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #dc3545;
+            border: 1px solid #dc3545;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido al sitio web de gestión de cobro de agua potable!</h1>
+        <p>Aquí puedes administrar y controlar los pagos relacionados con el suministro de agua potable. Mantente al día con tus facturas, realiza pagos de forma segura y accede a información importante sobre tu consumo de agua.</p>
+        <p>¡Comienza ahora y simplifica la gestión de tus pagos de agua!</p>
+        <a href="https://app.powerbi.com/links/trHW_AYILG?ctid=136a0da6-6e34-4ca2-933d-36fa7895468e&pbi_source=linkShare" class="btn btn-danger">Dashboard</a>
     </div>
-
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-	</h4>
-
-</div>
+</body>
+</html>
